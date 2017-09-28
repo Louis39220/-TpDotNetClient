@@ -6,8 +6,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    </Grid>
+    <RelativePanel HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="360" Margin="0,6,0,-6">
+        <TextBlock HorizontalAlignment="Left" Height="54" TextWrapping="Wrap" Text="Montant en euros" VerticalAlignment="Top" Width="94" Margin="36,42,-72.667,-76"/>
+        <TextBlock HorizontalAlignment="Left" Height="54" TextWrapping="Wrap" Text="Devise" VerticalAlignment="Top" Width="94" Margin="36,96,-72.667,-130"/>
+        <TextBlock HorizontalAlignment="Left" Height="54" TextWrapping="Wrap" Text="Montant en devise" VerticalAlignment="Top" Width="94" Margin="36,258,-72.667,-292"/>
+        <ComboBox HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="64" Margin="204,90,-204,-90"/>
+        <TextBox HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="71" Margin="205,36,-205,-36" RenderTransformOrigin="1.747,-1.277"/>
+        <TextBox HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="71" Margin="197,258,-197,-258"/>
+        <Button Content="Convertir" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="166" Margin="72,170,-197.667,-168"/>
+    </RelativePanel>
 </Page>
